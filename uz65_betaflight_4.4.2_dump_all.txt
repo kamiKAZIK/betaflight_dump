@@ -257,6 +257,7 @@ feature -ESC_SENSOR
 feature -ANTI_GRAVITY
 feature -DYNAMIC_FILTER
 feature RX_SERIAL
+feature TELEMETRY
 feature OSD
 feature ANTI_GRAVITY
 feature DYNAMIC_FILTER
@@ -474,9 +475,9 @@ vtxtable powervalues 0 1 2
 vtxtable powerlabels 25 100 200
 
 # vtx
-vtx 0 0 0 0 0 900 900
-vtx 1 0 0 0 0 900 900
-vtx 2 0 0 0 0 900 900
+vtx 0 3 0 0 1 900 1200
+vtx 1 3 0 0 2 1200 1800
+vtx 2 3 0 0 3 1800 2100
 vtx 3 0 0 0 0 900 900
 vtx 4 0 0 0 0 900 900
 vtx 5 0 0 0 0 900 900
@@ -711,9 +712,9 @@ set gps_rescue_allow_arming_without_fix = OFF
 set gps_rescue_alt_mode = MAX_ALT
 set gps_rescue_use_mag = ON
 set deadband = 3
-set yaw_deadband = 0
+set yaw_deadband = 3
 set yaw_control_reversed = OFF
-set pid_process_denom = 2
+set pid_process_denom = 1
 set runaway_takeoff_prevention = ON
 set runaway_takeoff_deactivate_delay = 500
 set runaway_takeoff_deactivate_throttle_percent = 20
@@ -813,12 +814,12 @@ set osd_flymode_pos = 2455
 set osd_anti_gravity_pos = 234
 set osd_g_force_pos = 234
 set osd_throttle_pos = 234
-set osd_vtx_channel_pos = 234
+set osd_vtx_channel_pos = 2443
 set osd_crosshairs_pos = 205
 set osd_ah_sbar_pos = 206
 set osd_ah_pos = 78
 set osd_current_pos = 2401
-set osd_mah_drawn_pos = 2434
+set osd_mah_drawn_pos = 2433
 set osd_motor_diag_pos = 234
 set osd_craft_name_pos = 234
 set osd_display_name_pos = 234
