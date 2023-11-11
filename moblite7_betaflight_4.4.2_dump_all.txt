@@ -1,4 +1,4 @@
-# 
+Entering CLI Mode, type
 
 # dump all
 
@@ -585,7 +585,7 @@ set ibatv_offset = 0
 set beeper_inversion = ON
 set beeper_od = OFF
 set beeper_frequency = 0
-set beeper_dshot_beacon_tone = 1
+set beeper_dshot_beacon_tone = 4
 set yaw_motors_reversed = ON
 set mixer_type = LEGACY
 set crashflip_motor_percent = 0
@@ -640,8 +640,8 @@ set gps_rescue_velocity_p = 80
 set gps_rescue_velocity_i = 20
 set gps_rescue_velocity_d = 15
 set gps_rescue_yaw_p = 40
-set deadband = 2
-set yaw_deadband = 2
+set deadband = 3
+set yaw_deadband = 3
 set yaw_control_reversed = OFF
 set pid_process_denom = 2
 set runaway_takeoff_prevention = OFF
@@ -717,7 +717,7 @@ set osd_remaining_time_estimate_pos = 234
 set osd_flymode_pos = 2457
 set osd_anti_gravity_pos = 234
 set osd_g_force_pos = 234
-set osd_throttle_pos = 2456
+set osd_throttle_pos = 408
 set osd_vtx_channel_pos = 2369
 set osd_crosshairs_pos = 205
 set osd_ah_sbar_pos = 206
