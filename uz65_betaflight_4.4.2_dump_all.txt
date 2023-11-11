@@ -279,7 +279,7 @@ beeper ACC_CALIBRATION_FAIL
 beeper READY_BEEP
 beeper MULTI_BEEPS
 beeper DISARM_REPEAT
-beeper -ARMED
+beeper ARMED
 beeper SYSTEM_INIT
 beeper ON_USB
 beeper BLACKBOX_ERASE
@@ -289,7 +289,7 @@ beeper CAM_CONNECTION_CLOSE
 beeper RC_SMOOTHING_INIT_FAIL
 
 # beacon
-beacon -RX_LOST
+beacon RX_LOST
 beacon RX_SET
 
 # map
@@ -532,9 +532,9 @@ set dyn_lpf_gyro_max_hz = 500
 set gyro_filter_debug_axis = ROLL
 set acc_hardware = AUTO
 set acc_lpf_hz = 10
-set acc_trim_pitch = 2
-set acc_trim_roll = 2
-set acc_calibration = -36,-47,-201,1
+set acc_trim_pitch = 0
+set acc_trim_roll = 0
+set acc_calibration = -27,3,-96,1
 set align_mag = DEFAULT
 set mag_align_roll = 0
 set mag_align_pitch = 0
@@ -906,7 +906,7 @@ set scheduler_optimize_rate = AUTO
 set enable_stick_arming = OFF
 set vtx_band = 1
 set vtx_channel = 2
-set vtx_power = 1
+set vtx_power = 2
 set vtx_low_power_disarm = OFF
 set vtx_freq = 5845
 set vtx_pit_mode_freq = 0
