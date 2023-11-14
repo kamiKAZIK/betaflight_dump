@@ -1,4 +1,4 @@
-Entering CLI Mode, type
+# 
 
 # dump all
 
@@ -521,7 +521,7 @@ set rx_min_usec = 885
 set rx_max_usec = 2115
 set serialrx_halfduplex = OFF
 set msp_override_channels_mask = 0
-set rx_spi_protocol = FRSKY_D
+set rx_spi_protocol = FRSKY_X
 set rx_spi_bus = 3
 set rx_spi_led_inversion = OFF
 set adc_device = 1
@@ -809,7 +809,7 @@ set pwr_on_arm_grace = 5
 set enable_stick_arming = OFF
 set vtx_band = 1
 set vtx_channel = 2
-set vtx_power = 4
+set vtx_power = 3
 set vtx_low_power_disarm = ON
 set vtx_softserial_alt = OFF
 set vtx_freq = 5845
@@ -833,9 +833,9 @@ set displayport_max7456_wht = 2
 set esc_sensor_halfduplex = OFF
 set esc_sensor_current_offset = 0
 set frsky_spi_autobind = OFF
-set frsky_spi_tx_id = 39,148,1
-set frsky_spi_offset = -14
-set frsky_spi_bind_hop_data = 0,30,60,91,120,150,180,210,5,35,65,95,125,155,185,215,10,40,70,100,130,160,190,221,15,45,75,105,135,165,195,225,20,50,80,110,140,170,200,230,25,55,85,115,145,175,205,0,0,0
+set frsky_spi_tx_id = 39,148,2
+set frsky_spi_offset = -12
+set frsky_spi_bind_hop_data = 0,46,92,138,184,230,41,87,133,179,225,36,82,128,174,221,31,77,123,169,215,26,72,118,164,210,21,67,113,159,205,16,62,108,154,200,11,57,103,149,195,6,52,98,144,190,1,0,0,0
 set frsky_x_rx_num = 0
 set frsky_spi_a1_source = VBAT
 set cc2500_spi_chip_detect = ON
